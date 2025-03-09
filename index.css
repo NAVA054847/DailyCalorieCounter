@@ -1,0 +1,398 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+#registration,
+#connection {
+  border: 1rem solid white;
+  width: 30vw;
+  height: 90vh;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+#registration,
+#connection p {
+  font-size: 1.1rem;
+}
+
+
+#welcom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  height: 100vh;
+  padding: 30px;
+  background-image: url(image1/רקע\ 4.png);
+
+  background-size: 100% 100%;
+}
+
+#welcom input {
+  padding: 3px;
+  border: 2px rgb(192, 168, 168) solid;
+  border-radius: 2px;
+  width: 12vw;
+}
+
+#welcom button {
+  margin: 12px;
+  background-color: rgb(192, 168, 168);
+  color: white;
+  border: none;
+  width: 12vw;
+}
+#v{
+  height: 100vh;
+  background-color: rgb(192, 168, 168);
+  display: flex;
+  flex-direction: column;
+  border: solid rgb(255, 255, 255, 0.4) 0.5rem;
+}
+#v .links{
+  background-image: url(image1/רקע6.jpg);
+}
+
+#vegetables {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: url(image1/רקע6.jpg);
+  /* border: 0.5rem solid rgb(203, 174, 207); */
+  background-color: rgb(255, 255, 255, 0.8);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#vegetables h1 {
+  color: brown;
+  font-size: 3rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 100vw;
+}
+
+#vegetables .card {
+  /* border: rgb(192, 168, 168) solid 0.5rem; */
+  background-color: white;
+  font-size: 1rem;
+  width: 20vw;
+  height: 60vh;
+  border-radius: 6%;
+  margin: 2rem;
+  box-shadow: 1px 0px 18px 6px;
+}
+
+.card img {
+  width: 100%;
+  height: 55%;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+}
+#p{
+  height: 100vh;
+  background-image: url(image1/חלבונים\ רקע.jpg);
+  flex-direction: column;
+  border: solid rgb(255, 255, 255, 0.4) 0.5rem;
+}
+
+#protein {
+  background-image: url(image1/חלבונים\ רקע.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 0.5rem solid rgb(12, 144, 102); */
+  background-color: rgb(255, 255, 255, 0.8);
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+#protein h1 {
+  color: brown;
+  font-size: 3rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 100vw;
+}
+
+#protein .card {
+  /* border: rgb(192, 168, 168) solid 0.5rem; */
+  background-color: white;
+  font-size: 1rem;
+  width: 20vw;
+  height: 60vh;
+  border-radius: 6%;
+  margin: 2rem;
+  
+  box-shadow: 1px 0px 18px 6px;
+}
+
+#c{
+  height: 100vh;
+  background-image: url(image1/רקע\ פחמימות.jpg);
+  display: flex;
+  flex-direction: column;
+  border: solid rgb(255, 255, 255, 0.4) 0.5rem;
+
+}
+
+#carbohydrate {
+  height: 80vh;
+  background-image: url(image1/רקע\ פחמימות.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 0.5rem solid rgb(112, 169, 151); */
+  background-color: rgb(255, 255, 255, 0.8);
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+#carbohydrate .card {
+  /* border: rgb(192, 168, 168) solid 0.5rem; */
+  background-color: white;
+  font-size: 1rem;
+  width: 20vw;
+  height: 60vh;
+  border-radius: 6%;
+  margin: 2rem;
+  box-shadow: 1px 0px 18px 6px;
+}
+
+#carbohydrate h1 {
+  color: brown;
+  font-size: 3rem;
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 100vw;
+}
+
+#Options {
+  /* background-image: url(image1/רקע\ 7.jpg); */
+  /* background-size:   100% 100%; */
+
+  border: rgb(255, 255, 255, 0.4) 0.2rem solid;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #BCAAA4;
+}
+
+#Options .a:hover {
+  font-size: 3rem;
+}
+
+#Options .b:hover {
+  font-size: 3rem;
+}
+
+#Options .c:hover {
+  font-size: 3rem;
+}
+
+#Options .a {
+  background-image: url(image1/חלבונים\ רקע.jpg);
+  height: 13rem;
+  width: 13rem;
+  border: 0.7rem solid rgb(255, 255, 255, 0.4);
+  border-radius: 50%;
+  background-size: 100% 100%;
+  font-size: 2rem;
+}
+
+
+#Options .b {
+  background-image: url(image1/רקע\ פחמימות.jpg);
+  height: 13rem;
+  width: 13rem;
+  border: 0.7rem solid rgb(255, 255, 255, 0.4);
+  border-radius: 50%;
+  background-size: 100% 100%;
+  font-size: 2rem;
+}
+
+#Options .c {
+  background-image: url(image1/רקע6.jpg);
+  height: 13rem;
+  width: 13rem;
+  border: 0.7rem solid rgb(255, 255, 255, 0.4);
+  border-radius: 50%;
+  background-size: 100% 100%;
+  font-size: 2rem;
+}
+
+#Options .c p {
+  background-color: rgb(255, 255, 255, 0.4);
+  border-radius: 4%;
+}
+
+#Options .b p {
+  background-color: rgb(255, 255, 255, 0.4);
+  border-radius: 4%;
+}
+
+#Options .a p {
+  background-color: rgb(255, 255, 255, 0.4);
+  border-radius: 4%;
+}
+
+.a,
+.b,
+.c {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+#ppp{
+ background-image: url(image1/חלבונים\ רקע.jpg);
+  height: 100%;
+  width: 33%;
+  display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ccc{
+background-image: url(image1/רקע\ פחמימות.jpg);
+height: 100%;
+width: 33%;
+display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#vvv{
+  background-image: url(image1/תפזורת\ ירקות.jpeg);
+  height: 100%;
+width: 33%;
+display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: rgb(30, 44, 40);
+  height: 80vh;
+  
+}
+
+#plate{
+  /* background-color: rgb(160, 170, 170); */
+  background-image: url(image1/צלחת.jpg);
+  background-size: 100% 100%;
+
+  height: 100vh;
+  width: 100%;
+  /* border: rgb(129, 129, 164) 1rem solid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+#cart #food{
+  background-color: none;
+  border: 1px white solid;
+  border-radius: 30%;
+  height: 65%;
+  width: 45%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+ margin: 1rem;
+}
+
+#cart #plate #food div{
+  height: 30%;
+  width: 30%;
+  background-color: rgb(225, 254, 244);
+  border: 1px solid pink;
+  margin: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+#cart #plate div button{
+  /* background-color: rgb(172, 172, 207); */
+  border-radius: 20px;
+  border: 3px pink solid;
+  padding: 5px;
+}
+
+.links{
+  display: flex;
+  height: 20vh;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border:3px solid  rgb(255, 255, 255, 0.7);
+}
+
+.links .l{
+  height: 10vh;
+  width: 10vw;
+  background-color: rgb(255, 255, 255, 0.9);
+  border: solid 1px whitesmoke;
+  font-size: 1.5rem;
+padding-bottom: 85px;
+}
+
+#end {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image1/צלחת\ עם\ סרט.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+#end #allthesum{
+  background-color: rgb(255, 255, 255, 0.8);
+  height: 40vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius:3%;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 39px 2px;
+}

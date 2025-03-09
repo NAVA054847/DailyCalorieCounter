@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body onload="onload()">
+
+    <div id="welcom">
+        <!-- 
+        <div id="registration">
+
+            <form action="">
+                <h2>הרשמה</h2>
+
+                <p>שם מלא</p>
+                <input type="text">
+                <p>טלפון</p>
+                <input type="tel">
+                <p>תעודת זהות</p>
+                <input type="text">
+                <p>מייל</p>
+                <input type="email">
+                <p>כמה קלוריות אתה מעוניין לצרוך ביום?</p>
+                <input type="number">
+                <div><button>הרשם</button></div>
+                
+            </form>
+        </div>
+
+
+        <div id="connection">
+            <form action="">
+                <h2>התחברות</h2>
+                <p>שם מלא</p>
+                <input type="text" name="name">
+                <p>תעודת זהות</p>
+                <input type="text" name="iddd">
+                <div><button >התחבר</button></div>
+            </form>
+        </div> -->
+    </div>
+
+
+    <div id="Options">
+
+        <h1>מה תרצו לאכול</h1>
+
+
+        <div id="menu">
+
+            <!-- <div class="a">
+       <p>חלבונים</p>
+        </div>
+
+        <div class="b">
+            <p>פחמימות </p>
+        </div>
+
+        <div class="c">
+            <p>ירקות</p>
+        </div> -->
+        </div>
+
+
+
+    </div>
+
+
+    <div id="v">
+
+        <div class="links">
+            <div class="l">
+                <p onclick="show('cart');endofday();hide('v')">סוף יום</p>
+            </div>
+            <div class="l">
+                <p onclick="show('p');renderprotein();endofday();hide('v');hide('c')">חלבונים</p>
+            </div>
+            <div class="l">
+                <p onclick="show('c');rendercarbohydrate();endofday();hide('v');hide('p')" >פחמימות</p>
+            </div>
+        </div>
+
+        <div id="vegetables">
+
+
+            <!-- <div class="card">
+            
+                    <img src="image1/{vegetables[i].img}" alt="">
+                    <p>${vegetables[i].name}שם מוצר:</p>
+                    <p>${vegetables[i].Weight}גרם:</p>
+                    <p>${vegetables[i].calories}:קלוריות</p>
+                    <button>הוסף</button>
+                </div> -->
+
+        </div>
+    </div>
+
+
+    <div id="p">
+
+        <div class="links">
+            <div class="l">
+                <p onclick="show('cart');endofday();hide('v');hide('p')">סוף יום</p>
+            </div>
+            <div class="l">
+                <p onclick="show('c');rendercarbohydrate();endofday();hide('v');hide('p')">פחמימות</p>
+            </div>
+            <div class="l">
+                <p onclick="show('v');rendervegetables();endofday();hide('c');hide('p')">ירקות</p>
+            </div>
+        </div>
+
+        <div id="protein">
+
+            <!-- <div>
+                <h1>חלבונים</h1>
+            </div> -->
+
+            <!-- <div class="card">
+                    <img src="chel_img/{protein[i].img}" alt="">
+                    <p>${protein[i].name}שם מוצר:</p>
+                    <p>${protein[i].Weight}גרם:</p>
+                    <p>${protein[i].calories}:קלוריות</p>
+                    <button>הוסף</button>
+                </div> -->
+
+        </div>
+    </div>
+
+
+    <div id="c">
+        <div class="links">
+            <div class="l">
+                <p onclick="show('cart');endofday();hide('v');hide('p');hide('c')">סוף יום</p>
+            </div>
+            <div class="l">
+                <p onclick="show('p');renderprotein();endofday();hide('v');hide('c')">חלבונים</p>
+            </div>
+            <div class="l">
+                <p onclick="show('v');rendervegetables();endofday();hide('c');hide('p')">ירקות</p>
+            </div>
+        </div>
+
+
+        <div id="carbohydrate">
+
+            <!-- <div>
+                <h1>פחמימות</h1>
+            </div> -->
+
+            <!-- <div class="card">
+                <img src="pach_img/{carbohydrate[i].img}" alt="">
+                <p>${carbohydrate[i].name}שם מוצר:</p>
+                <p>${carbohydrate[i].Weight}גרם:</p>
+                <p>${carbohydrate[i].calories}:קלוריות</p>
+                <button>הוסף</button>
+            </div> -->
+
+        </div>
+    </div>
+
+
+
+
+
+    <div id="cart">
+        
+
+        <div id="plate">
+            <div id="food">
+                <!-- <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div> -->
+            </div>
+
+            <div><button onclick="sum();hide('cart'),show('end')">כמה אכלתי היום</button></div>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="end">
+
+
+
+        <div id="allthesum">
+            <!-- <p>היום צרכת ---- קלוריות----</p> -->
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
