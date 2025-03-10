@@ -26,3 +26,5 @@
 
 Frontend: HTML, CSS, JavaScript
 
+מוזמנים לתרום לפיתוח באמצעות Pull Requests ולהציע שיפורים!
+
