@@ -52,6 +52,9 @@ Frontend: HTML, CSS, JavaScript
 
 הפרויקט יפעל ישירות בדפדפן.
 
+דפי הפרוייקט:
+
+![מסך הרמשה והתחברות](IMG_FOR_README/login_screan.png)
 
 
 
