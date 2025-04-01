@@ -5,6 +5,7 @@
 
 האפליקציה מאפשרת למשתמשים לנהל מעקב אחר צריכת הקלוריות היומית שלהם ולוודא שהם עומדים ביעד התזונתי שהגדירו לעצמם.
 
+
 ---
 
 ## **⭐ תכונות עיקריות:**
@@ -110,6 +111,10 @@
 
 The app allows users to track their daily calorie intake and ensure they meet their nutritional goals.
 
+## 🌐 Now available online! You can access the app at:
+
+    https://dailycaloriecounter-2.onrender.com
+
 ---
 
 ## **⭐ Key Features:**
@@ -214,7 +219,6 @@ Integrating an advanced search engine to improve accessibility and efficiency wh
 Feel free to contribute to development via **Pull Requests** and suggest improvements!
 
 
-    https://dailycaloriecounter-2.onrender.com
 
 
 
