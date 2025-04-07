@@ -99,7 +99,7 @@ The app allows users to track their daily calorie intake and ensure they meet th
 
 ![End of Day Summary](IMG_FOR_README/sum_screan.png)
 
--
+
 
 ## 🤝 Contribute to Development!
 
@@ -123,6 +123,7 @@ Feel free to contribute to development via **Pull Requests** and suggest improve
 
 
 ----------------------------------------------------------------------------------------
+-------------------------------------------------------------------
 
 
 
@@ -207,7 +208,7 @@ Feel free to contribute to development via **Pull Requests** and suggest improve
 
 ![סיכום יום](IMG_FOR_README/sum_screan.png)
 
--
+
 
 ## 🤝 תרמו לפיתוח!
 
